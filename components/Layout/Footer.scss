@@ -1,0 +1,57 @@
+@import '__variables';
+
+.Footer {
+  display: block;
+  padding: 2rem 0;
+  margin: 0 auto;
+  text-align: center;
+
+  &__nav__items {
+    display: block;
+
+    @media #{$bigger-screen} {
+      @include flex;
+    }
+  }
+
+  &__nav__item {
+    margin: 0 auto 2rem;
+
+    @media #{$bigger-screen} {
+      margin: 0 0 1rem;
+
+      &:after {
+        content: '/';
+        display: inline-block;
+        margin: 0 2rem;
+        font-weight: 300;
+      }
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+
+  &__title {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 300;
+    margin-top: 3rem;
+
+    @media #{$bigger-screen} {
+      margin-top: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "scope": "brn",
+  "alias": ["simple-nextjs-boilerplate.brn.sh"],
+  "github": {
+    "enabled": false
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "NODE_PATH": "/",
+    "API_URL": "https://simple-nextjs-boilerplate.brn.sh"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+      "NODE_PATH": "/",
+      "API_URL": "https://simple-nextjs-boilerplate.brn.sh"
+    }
+  },
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/favicon.ico",
+      "dest": "/public/favicon.ico"
+    }
+  ]
+}

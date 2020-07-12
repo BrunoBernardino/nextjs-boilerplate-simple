@@ -1,0 +1,70 @@
+{
+  "name": "nextjs-boilerplate-simple",
+  "version": "1.0.0",
+  "author": "Bruno Bernardino <me@brunobernardino.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoBernardino/nextjs-boilerplate-simple.git"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "test": "tsc --noEmit && jest --testTimeout=5000",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "pretty": "prettier --write '*.{js,jsx,ts,tsx,json,scss}' '**/*.{js,jsx,ts,tsx,json,scss}'",
+    "pretty/test": "prettier --check '*.{js,jsx,ts,tsx,json,scss}' '**/*.{js,jsx,ts,tsx,json,scss}'"
+  },
+  "dependencies": {
+    "@now/node": "1.7.2",
+    "@types/node": "14.0.22",
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "@types/styled-components": "5.1.1",
+    "@zeit/next-sass": "1.0.1",
+    "dotenv": "8.2.0",
+    "ky": "0.21.0",
+    "ky-universal": "0.8.1",
+    "next": "9.4.4",
+    "node-sass": "4.14.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-helmet": "6.1.0",
+    "react-show": "3.0.4",
+    "styled-components": "5.1.1",
+    "typescript": "3.9.6"
+  },
+  "devDependencies": {
+    "@types/enzyme": "3.10.5",
+    "@types/jest": "26.0.4",
+    "@types/react-helmet": "6.0.0",
+    "@typescript-eslint/eslint-plugin": "3.6.0",
+    "@typescript-eslint/parser": "3.6.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "26.1.0",
+    "babel-plugin-styled-components": "1.10.7",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "eslint": "7.4.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-babel": "5.3.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.20.3",
+    "expect": "26.1.0",
+    "expect-enzyme": "1.3.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "26.1.0",
+    "prettier": "2.0.5",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.13.1"
+  }
+}

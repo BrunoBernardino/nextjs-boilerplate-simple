@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders the footer as expected 1`] = `
+<footer
+  className="Footer"
+>
+  <nav
+    className="Footer__nav"
+  >
+    <ul
+      className="Footer__nav__items"
+    >
+      <li
+        className="Footer__nav__item"
+      >
+        view source in 
+        <a
+          href="https://github.com/BrunoBernardino/nextjs-boilerplate-simple"
+        >
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h3
+    className="Footer__title"
+  >
+    by 
+    <a
+      href="https://brunobernardino.com"
+    >
+      Bruno Bernardino
+    </a>
+  </h3>
+</footer>
+`;

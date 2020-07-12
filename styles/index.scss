@@ -1,0 +1,30 @@
+@import '__variables';
+
+.main {
+  &__section {
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    border-bottom: 5px solid $color-pink;
+
+    &:last-of-type {
+      border: none;
+    }
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+
+  &__description {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+
+    strong {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+$color-background: #f4f4f4;
+$color-text: #222222;
+$color-purple: #3c1143;
+$color-pink: #c25178;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-text-gray: #555555;
+$color-border-gray: #999999;
+$color-red: #bc3232;
+$color-red-darker: #a02200;
+$color-link: $color-text;
+$color-link-hover: $color-pink;
+
+$break-xsmall: 370px;
+$break-small: 600px;
+$max-width: 960px;
+
+$medium-screen: 'only screen and (min-width : #{$break-xsmall})';
+$bigger-screen: 'only screen and (min-width : #{$break-small})';
+
+@mixin flex {
+  display: flex;
+  flex: 1;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-spaced {
+  @include flex;
+  justify-content: space-between;
+}
+
+@mixin flex-end {
+  @include flex;
+  align-items: flex-end;
+}
+
+@mixin flex-start {
+  @include flex;
+  align-items: flex-start;
+}
+
+@mixin flex-spaced-start {
+  @include flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

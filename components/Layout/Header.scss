@@ -1,0 +1,57 @@
+@import '__variables';
+
+.Header {
+  display: block;
+  text-align: center;
+  padding: 1.3rem 0;
+
+  @media #{$bigger-screen} {
+    @include flex-spaced;
+  }
+
+  &__title {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 100;
+
+    a {
+      text-decoration: none;
+
+      img {
+        width: 120px;
+      }
+    }
+  }
+
+  &__nav__items {
+    display: block;
+    margin: 20px auto;
+
+    @media #{$bigger-screen} {
+      @include flex;
+    }
+  }
+
+  &__nav__item {
+    display: block;
+    margin: 0 0.3rem 0.3rem;
+
+    @media #{$bigger-screen} {
+      margin: 0 0.3rem;
+    }
+
+    a {
+      display: block;
+      padding: 0.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    &--active {
+      a {
+        color: $color-pink;
+      }
+    }
+  }
+}
