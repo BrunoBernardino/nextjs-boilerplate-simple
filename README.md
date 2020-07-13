@@ -24,7 +24,7 @@ make deploy # deploys to simple-nextjs-boilerplate.brn.sh (requires `vercel` to 
 Here are some things you will likely want to change before "publishing" this, or after cloning it:
 
 - [ ] Analytics code (`usefathom.com`) and `theme-color` in `pages/_document.tsx`
-- [ ] Name and description in `package.json`
+- [ ] Name, repository, author, and version in `package.json`
 - [ ] Values in `lib/constants.ts` and `styles/__variables.scss`
 - [ ] Scope, alias, and env values in `vercel.json`
 - [ ] Values in `.env.sample`

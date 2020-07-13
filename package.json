@@ -12,11 +12,11 @@
     "node": "12.x"
   },
   "scripts": {
-    "test": "tsc --noEmit && jest --testTimeout=5000",
+    "test": "jest --testTimeout=5000",
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx .",
     "pretty": "prettier --write '*.{js,jsx,ts,tsx,json,scss}' '**/*.{js,jsx,ts,tsx,json,scss}'",
     "pretty/test": "prettier --check '*.{js,jsx,ts,tsx,json,scss}' '**/*.{js,jsx,ts,tsx,json,scss}'"
   },
