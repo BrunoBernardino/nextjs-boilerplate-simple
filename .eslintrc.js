@@ -57,6 +57,8 @@ const eslint = {
     'import/extensions': 'off',
     'newline-per-chained-call': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'react/require-default-props': 'off',
+    'react/jsx-curly-newline': 'off',
   },
   parserOptions: {
     ecmaFeatures: {
