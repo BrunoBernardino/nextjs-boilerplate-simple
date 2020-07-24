@@ -8,6 +8,8 @@ Also supports imports with absolute paths.
 
 Demo at [simple-nextjs-boilerplate.brn.sh](https://simple-nextjs-boilerplate.brn.sh).
 
+See more boilerplates at [nextjs-boilerplates.brn.sh](https://nextjs-boilerplates.brn.sh).
+
 ## Development
 
 ```bash
