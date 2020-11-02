@@ -1,26 +1,26 @@
 {
   "version": 2,
   "scope": "brn",
-  "alias": ["simple-nextjs-boilerplate.brn.sh"],
+  "alias": ["simple-nextjs-boilerplate.onbrn.com"],
   "github": {
     "enabled": false
   },
   "env": {
     "NODE_ENV": "production",
     "NODE_PATH": "/",
-    "API_URL": "https://simple-nextjs-boilerplate.brn.sh"
+    "API_URL": "https://simple-nextjs-boilerplate.onbrn.com"
   },
   "build": {
     "env": {
       "NODE_ENV": "production",
       "NODE_PATH": "/",
-      "API_URL": "https://simple-nextjs-boilerplate.brn.sh"
+      "API_URL": "https://simple-nextjs-boilerplate.onbrn.com"
     }
   },
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@now/next"
+      "use": "@vercel/next"
     }
   ],
   "routes": [

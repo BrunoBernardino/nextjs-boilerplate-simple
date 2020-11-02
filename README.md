@@ -6,19 +6,19 @@ Simple boilerplate for [Next.js](https://nextjs.org), with [TypeScript](https://
 
 Also supports imports with absolute paths.
 
-Demo at [simple-nextjs-boilerplate.brn.sh](https://simple-nextjs-boilerplate.brn.sh).
+Demo at [simple-nextjs-boilerplate.onbrn.com](https://simple-nextjs-boilerplate.onbrn.com).
 
-See more boilerplates at [nextjs-boilerplates.brn.sh](https://nextjs-boilerplates.brn.sh).
+See more boilerplates at [nextjs-boilerplates.onbrn.com](https://nextjs-boilerplates.onbrn.com).
 
 ## Development
 
 ```bash
-make install # installs dependencies
-make start # starts the app
-make pretty # prettifies the code
-make test # runs linting and tests
-make test/update # runs tests, updating snapshots
-make deploy # deploys to simple-nextjs-boilerplate.brn.sh (requires `vercel` to be installed globally)
+make install  # installs dependencies
+make start  # starts the app
+make pretty  # prettifies the code
+make test  # runs linting and tests
+make test/update  # runs tests, updating snapshots
+make deploy  # deploys to simple-nextjs-boilerplate.brn.sh (requires `vercel` to be installed globally)
 ```
 
 ## TODOs
