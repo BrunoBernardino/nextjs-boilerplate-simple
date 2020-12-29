@@ -18,7 +18,7 @@ make start  # starts the app
 make pretty  # prettifies the code
 make test  # runs linting and tests
 make test/update  # runs tests, updating snapshots
-make deploy  # deploys to simple-nextjs-boilerplate.brn.sh (requires `vercel` to be installed globally)
+make deploy  # deploys to simple-nextjs-boilerplate.onbrn.com (requires `vercel` to be installed globally)
 ```
 
 ## TODOs

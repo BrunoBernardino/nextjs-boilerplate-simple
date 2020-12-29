@@ -59,6 +59,7 @@ const eslint = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'react/require-default-props': 'off',
     'react/jsx-curly-newline': 'off',
+    'no-use-before-define': 'off',
   },
   parserOptions: {
     ecmaFeatures: {

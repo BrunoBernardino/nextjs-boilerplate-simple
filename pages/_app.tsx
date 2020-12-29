@@ -19,6 +19,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta property="og:title" content={defaultTitle} />
         <meta name="description" content={defaultDescription} />
         <meta name="keywords" content={defaultKeywords} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Component {...pageProps} />
     </>
