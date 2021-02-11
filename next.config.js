@@ -4,7 +4,9 @@ require('dotenv').config();
 
 module.exports = withSass({
   target: 'serverless',
-  env: {},
+  env: {
+    API_URL: process.env.API_URL,
+  },
   sassLoaderOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
