@@ -37,7 +37,7 @@ const IndexPage = () => {
           <Paragraph>
             This is a simple boilerplate for Next.js, with TypeScript,
             SASS/SCSS, Styled Components, Jest, ESLint, Prettier, and deployed
-            with Vercel.
+            with Serverless.
           </Paragraph>
           <Paragraph>Click the button, have some fun.</Paragraph>
           <Button onClick={incrementCounter}>
