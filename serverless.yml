@@ -2,9 +2,11 @@ service:
   name: brn-nextjs-boilerplate-simple
 
 myNextAppplication:
-  component: "@sls-next/serverless-component@1.18.0"
+  component: "@sls-next/serverless-component@1.19.0"
   inputs:
     domain: ["simple-nextjs-boilerplate", "onbrn.com"]
+    bucketName: brn-nextjs-boilerplate-simple
+    bucketRegion: us-east-1
     build:
       env:
         NODE_PATH: "/"

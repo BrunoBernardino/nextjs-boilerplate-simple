@@ -33,3 +33,4 @@ Here are some things you will likely want to change before "publishing" this, or
 - [ ] Service name, domain, and env values in `serverless.yml`
 - [ ] Values in `.env.sample`
 - [ ] Title, description, and links in this `README.md` file
+- [ ] Uncomment `.serverless` from `.gitignore`, if you're versioning this privately, so you don't need to destroy your AWS resources before running `make deploy` again
