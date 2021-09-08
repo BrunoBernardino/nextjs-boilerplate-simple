@@ -49,7 +49,7 @@ export default class MyDocument extends Document {
           <script
             src="https://cdn.usefathom.com/script.js"
             // @ts-ignore
-            site="KJTGTOFV"
+            site="TQCCNMLP"
             defer
           />
         </body>
