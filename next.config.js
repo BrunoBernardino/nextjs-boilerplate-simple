@@ -1,8 +1,8 @@
 const path = require('path');
-const withSass = require('@zeit/next-sass');
+
 require('dotenv').config();
 
-module.exports = withSass({
+module.exports = {
   target: 'serverless',
   env: {
     API_URL: process.env.API_URL,
@@ -17,4 +17,4 @@ module.exports = withSass({
     config.resolve.alias.styles = path.join(__dirname, 'styles');
     return config;
   },
-});
+};

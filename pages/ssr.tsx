@@ -11,8 +11,6 @@ import {
 } from 'lib/constants';
 import api from 'lib/api';
 
-import 'styles/index.scss';
-
 const layoutProps = {
   title: defaultTitle,
   description: defaultDescription,
@@ -26,8 +24,8 @@ const Paragraph = styled.p.attrs({
 export const getServerSideProps: GetServerSideProps = async () => {
   try {
     const response = await api.get('random-positive-int');
-    if (response && response.ok) {
-      const { number: randomPositiveInt } = await response.json();
+    if (response && response.status === 200) {
+      const { number: randomPositiveInt } = response.data as { number: number };
       return { props: { randomPositiveInt } };
     }
   } catch (error) {

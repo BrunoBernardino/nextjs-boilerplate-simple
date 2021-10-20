@@ -1,8 +1,8 @@
-import ky from 'ky-universal';
+import axios from 'axios';
 
-const api = ky.create({
-  credentials: 'include',
-  prefixUrl: `${(process && process.env && process.env.API_URL) || ''}/api/v0/`,
+const api = axios.create({
+  withCredentials: true,
+  baseURL: `${(process && process.env && process.env.API_URL) || ''}/api/v0/`,
   timeout: 30000,
 });
 

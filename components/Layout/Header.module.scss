@@ -1,4 +1,4 @@
-@import '__variables';
+@import 'styles/__variables';
 
 .Header {
   display: block;
@@ -21,6 +21,9 @@
         width: 120px;
       }
     }
+  }
+
+  &__nav {
   }
 
   &__nav__items {

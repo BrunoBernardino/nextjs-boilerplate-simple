@@ -9,8 +9,6 @@ import {
   defaultKeywords,
 } from 'lib/constants';
 
-import 'styles/index.scss';
-
 const layoutProps = {
   title: defaultTitle,
   description: defaultDescription,

@@ -9,7 +9,6 @@ import {
 } from 'lib/constants';
 
 import 'styles/main.scss';
-import 'styles/_common.scss';
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (

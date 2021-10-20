@@ -2,20 +2,20 @@ import React from 'react';
 
 import { githubUrl } from 'lib/constants';
 
-import './Footer.scss';
+import styles from './Footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer className="Footer">
-      <nav className="Footer__nav">
-        <ul className="Footer__nav__items">
-          <li className="Footer__nav__item">
+    <footer className={styles.Footer}>
+      <nav className={styles.Footer__nav}>
+        <ul className={styles.Footer__nav__items}>
+          <li className={styles.Footer__nav__item}>
             view source in <a href={githubUrl}>GitHub</a>
           </li>
         </ul>
       </nav>
 
-      <h3 className="Footer__title">
+      <h3 className={styles.Footer__title}>
         by <a href="https://brunobernardino.com">Bruno Bernardino</a>
       </h3>
     </footer>

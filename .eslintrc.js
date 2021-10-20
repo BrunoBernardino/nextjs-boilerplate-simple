@@ -5,7 +5,7 @@ const eslint = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
+    'prettier',
   ],
   rules: {
     semi: 2,

@@ -2,26 +2,26 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import './Header.scss';
+import styles from './Header.module.scss';
 
 const Header = () => {
   const router = useRouter();
   const currentPath = router && router.route;
 
   return (
-    <header className="Header">
-      <h1 className="Header__title">
+    <header className={styles.Header}>
+      <h1 className={styles.Header__title}>
         <Link href="/">
           <a>
             <img alt="Logo: stylized letters 'BRN'" src="/images/logo.svg" />
           </a>
         </Link>
       </h1>
-      <nav className="Header__nav">
-        <ul className="Header__nav__items">
+      <nav className={styles.Header__nav}>
+        <ul className={styles.Header__nav__items}>
           <li
-            className={`Header__nav__item ${
-              currentPath === '/ssr' ? 'Header__nav__item--active' : ''
+            className={`${styles.Header__nav__item} ${
+              currentPath === '/ssr' ? styles['Header__nav__item--active'] : ''
             }`}
           >
             <Link href="/ssr">
@@ -29,8 +29,8 @@ const Header = () => {
             </Link>
           </li>
           <li
-            className={`Header__nav__item ${
-              currentPath === '/sg' ? 'Header__nav__item--active' : ''
+            className={`${styles.Header__nav__item} ${
+              currentPath === '/sg' ? styles['Header__nav__item--active'] : ''
             }`}
           >
             <Link href="/sg">
