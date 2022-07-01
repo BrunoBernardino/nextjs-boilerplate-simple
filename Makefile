@@ -1,7 +1,7 @@
 .PHONY: install
 install:
 	-cp -n .env.sample .env
-	npm install --legacy-peer-deps
+	npm install
 
 .PHONY: start
 start:

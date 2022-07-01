@@ -47,10 +47,9 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
           <script
-            src="https://cdn.usefathom.com/script.js"
-            // @ts-ignore
-            site="TQCCNMLP"
             defer
+            data-domain="simple-nextjs-boilerplate.onbrn.com"
+            src="https://plausible.io/js/plausible.js"
           />
         </body>
       </Html>
