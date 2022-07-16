@@ -46,11 +46,6 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script
-            defer
-            data-domain="simple-nextjs-boilerplate.onbrn.com"
-            src="https://plausible.io/js/plausible.js"
-          />
         </body>
       </Html>
     );

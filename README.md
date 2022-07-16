@@ -27,7 +27,7 @@ make deploy  # deploys to simple-nextjs-boilerplate.onbrn.com (requires `serverl
 
 Here are some things you will likely want to change before "publishing" this, or after cloning it:
 
-- [ ] Analytics code (`plausible.io`) and `theme-color` in `pages/_document.tsx`
+- [ ] `theme-color` in `pages/_document.tsx`
 - [ ] Name, repository, author, and version in `package.json`
 - [ ] Values in `lib/constants.ts` and `styles/__variables.scss`
 - [ ] Service name, domain, and env values in `serverless.yml`
