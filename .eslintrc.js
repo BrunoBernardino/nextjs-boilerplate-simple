@@ -60,6 +60,8 @@ const eslint = {
     'react/require-default-props': 'off',
     'react/jsx-curly-newline': 'off',
     'no-use-before-define': 'off',
+    'react/function-component-definition': 'off',
+    'react/jsx-no-constructed-context-values': 'off',
   },
   parserOptions: {
     ecmaFeatures: {

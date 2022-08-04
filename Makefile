@@ -32,7 +32,3 @@ lint:
 .PHONY: pretty
 pretty:
 	npm run pretty
-
-.PHONY: deploy
-deploy:
-	serverless

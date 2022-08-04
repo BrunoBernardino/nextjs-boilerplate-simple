@@ -3,12 +3,8 @@ const path = require('path');
 require('dotenv').config();
 
 module.exports = {
-  target: 'serverless',
   env: {
     API_URL: process.env.API_URL,
-  },
-  sassLoaderOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
   },
   webpack(config) {
     config.resolve.alias.pages = path.join(__dirname, 'pages');

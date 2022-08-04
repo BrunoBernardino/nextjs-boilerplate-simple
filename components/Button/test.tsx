@@ -1,12 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
 import expect from 'expect';
-import enzymify from 'expect-enzyme';
 
 import Button from './index';
-
-expect.extend(enzymify());
 
 const defaultProps = {
   onClick: () => {},
@@ -14,8 +10,12 @@ const defaultProps = {
 
 describe('Button', () => {
   it('renders the button without errors', () => {
-    const wrapper = shallow(<Button {...defaultProps}>Hello</Button>);
-    expect(wrapper.first().text()).toBe('Hello');
+    const tree = renderer
+      .create(<Button {...defaultProps}>Hello</Button>)
+      .toJSON();
+    expect(tree.type).toBe('button');
+    expect(tree.children.length).toBe(1);
+    expect(tree.children[0]).toBe('Hello');
   });
 
   it('renders the button as expected', () => {
