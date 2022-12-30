@@ -1,7 +1,7 @@
 .PHONY: install
 install:
 	-cp -n .env.sample .env
-	npm install
+	npm ci
 
 .PHONY: start
 start:

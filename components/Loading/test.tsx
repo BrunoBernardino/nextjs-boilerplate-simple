@@ -1,6 +1,5 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import expect from 'expect';
 
 import Loading from './index';
 

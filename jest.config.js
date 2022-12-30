@@ -12,5 +12,5 @@ module.exports = {
   moduleNameMapper: {
     '\\.(scss|sass|css)$': 'identity-obj-proxy',
   },
-  moduleDirectories: ['node_modules', '.'],
+  moduleDirectories: ['node_modules', '<rootDir>'],
 };

@@ -12,9 +12,7 @@ const Header = () => {
     <header className={styles.Header}>
       <h1 className={styles.Header__title}>
         <Link href="/">
-          <a>
-            <img alt="Logo: stylized letters 'BRN'" src="/images/logo.svg" />
-          </a>
+          <img alt="Logo: stylized letters 'BRN'" src="/images/logo.svg" />
         </Link>
       </h1>
       <nav className={styles.Header__nav}>
@@ -24,18 +22,14 @@ const Header = () => {
               currentPath === '/ssr' ? styles['Header__nav__item--active'] : ''
             }`}
           >
-            <Link href="/ssr">
-              <a>SSR</a>
-            </Link>
+            <Link href="/ssr">SSR</Link>
           </li>
           <li
             className={`${styles.Header__nav__item} ${
               currentPath === '/sg' ? styles['Header__nav__item--active'] : ''
             }`}
           >
-            <Link href="/sg">
-              <a>SG</a>
-            </Link>
+            <Link href="/sg">SG</Link>
           </li>
         </ul>
       </nav>
