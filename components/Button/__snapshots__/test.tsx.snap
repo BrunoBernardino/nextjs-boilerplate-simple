@@ -2,7 +2,7 @@
 
 exports[`Button renders the button as expected 1`] = `
 <button
-  className="Button__StyledButton-sc-h5w9x6-0 hKZSag"
+  className="Button__StyledButton-sc-h5w9x6-0 pTIuH"
   onClick={[Function]}
   type="button"
 >
