@@ -13,7 +13,7 @@ type ButtonProps = {
 const StyledButton = styled.button`
   margin: 1em auto;
   padding: 1em 1.5em;
-  font-size: 1.2em;
+  font-size: 1.3em;
   border: none;
   border-radius: 3px;
   color: ${css.white};

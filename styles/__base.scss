@@ -21,6 +21,37 @@ a {
   }
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul {
+  padding: 0;
+
+  li {
+    padding: 0;
+    list-style: none;
+  }
+}
+
+footer {
+  nav ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 0;
+      list-style: none;
+    }
+  }
+
+  h3 {
+    margin: 3rem 0 0;
+    padding: 0;
+  }
+}
+
 .wrapper {
   margin: 0 auto;
   display: block;
