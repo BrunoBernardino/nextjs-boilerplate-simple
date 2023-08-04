@@ -6,6 +6,12 @@ module.exports = {
   env: {
     API_URL: process.env.API_URL,
   },
+  compiler: {
+    styledComponents: {
+      ssr: true,
+      displayName: true,
+    },
+  },
   webpack(config) {
     config.resolve.alias.pages = path.join(__dirname, 'pages');
     config.resolve.alias.components = path.join(__dirname, 'components');
