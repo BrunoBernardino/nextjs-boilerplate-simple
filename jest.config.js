@@ -6,7 +6,7 @@ const createJestConfig = nextJest({
 
 const TEST_REGEX = '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|js?|tsx?|ts?)$';
 
-customJestConfig = {
+const customJestConfig = {
   setupFiles: [],
   testRegex: TEST_REGEX,
   testEnvironment: 'jest-environment-jsdom',
