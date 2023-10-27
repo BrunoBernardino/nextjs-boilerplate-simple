@@ -22,7 +22,12 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "incremental": true
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "exclude": [
     "node_modules",
@@ -31,5 +36,5 @@
     "**/*.test.ts",
     "**/*.test.tsx"
   ],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
 }
